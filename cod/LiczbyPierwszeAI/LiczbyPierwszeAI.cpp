@@ -1,27 +1,25 @@
-﻿#include <iostream>
+﻿#include <iostream> 
 using namespace std;
-
-int main()
-{
+int main() {
 	int n;
 	int lp = 0;
 	int p = 2;
-
-	cout << "Ile liczb pierwszych chcesz wyswietlic: ";
+	int d;
+	cout << "ile liczb wygenerowac";
 	cin >> n;
-	cout << "Liczby pierwsze: ";
-
 	while (lp < n)
 	{
 		for (int d = 2; d <= p - 1; d++)
 		{
 			if (p % d == 0)
-				goto K8;
+			{
+				goto KROK;
+			}
 		}
-		cout << p << ", ";
-		lp++;
-
-	K8:
-		p++;
+		cout << p << " ";
+		lp = lp + 1;
+		
+		KROK:
+			p = p + 1;
 	}
 }
