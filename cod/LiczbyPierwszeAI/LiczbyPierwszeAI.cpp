@@ -1,6 +1,7 @@
 ﻿#include <iostream> 
 using namespace std;
-int main() {
+int main() 
+{
 	int n;
 	int lp = 0;
 	int p = 2;
