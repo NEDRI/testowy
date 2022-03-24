@@ -13,13 +13,13 @@ int main() {
 		{
 			if (p % d == 0)
 			{
-				goto KROK;
+				goto k8;
 			}
 		}
 		cout << p << " ";
 		lp = lp + 1;
 		
-		KROK:
+		k8:
 			p = p + 1;
 	}
 }
