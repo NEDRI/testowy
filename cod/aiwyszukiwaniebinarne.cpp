@@ -37,7 +37,7 @@ int main()
 		}
 		sr = (l + p) / 2;
 	}
-	if (not znalazl)
+	if (znalazl==false)
 	{
 		goto n;
 	}
