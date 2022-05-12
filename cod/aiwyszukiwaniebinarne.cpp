@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 
@@ -6,7 +6,7 @@ int main()
 {
 	std::cout << "Hello World!\n";
 
-	
+
 	int szukana;
 	int tab[15] = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 };
 	//int pozycja;
@@ -16,7 +16,7 @@ int main()
 	int p = 15;
 	int sr = (l + p) / 2;
 
-	cout << "Podaj liczbe ktora chcesz znalezc: ";
+	cout << " Podaj liczbe ktora chcesz znalezc: ";
 	cin >> szukana;
 
 
@@ -37,9 +37,9 @@ int main()
 		}
 		sr = (l + p) / 2;
 	}
-	if (znalazl==false)
+	if (znalazl == false)
 	{
-                cout << "nie znaleziono zmiennej " << szukana;
+		cout << " nie znaleziono zmiennej " << szukana << "\n";
 		goto n;
 	}
 }
