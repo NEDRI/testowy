@@ -39,6 +39,7 @@ int main()
 	}
 	if (znalazl==false)
 	{
+                ciut << "nie znaleziono zmiennej " << szukana;
 		goto n;
 	}
 }
